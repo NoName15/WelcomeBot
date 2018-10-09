@@ -8,19 +8,9 @@ console.log("Welcome Again !");
   return channel.send(` 
 **
 :kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
-╔╦╦╦═╦╗╔═╦═╦══╦═╗
-║║║║╩╣╚╣═╣║║║║║╩╣
-╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
-‏نقدم لك دعوة لسموك الراقيَ .
-‏لنحظى بجمال حضورك وتواجدك
-•بتنـورونـا الجميع :wink:
-•اي مشكله توآجهك ولا يهمك. عندك الاداره تفضل ونحل مشكلتك مع آي شخص بالسيرفر.:telephone_receiver:
-•عندك فكره موضوع تفضل شآركنا فيه:jack_o_lantern::gift:
-•واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
-شرفنا يا عسل:wink: :kissing_heart:
 
-https://discord.gg/DK8DkXP                         
+                         
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **`)
 }).catch(console.error)
@@ -32,23 +22,12 @@ client.on("guildMemberAdd", member => {
   return channel.send(` 
 **
 :kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
-╔╦╦╦═╦╗╔═╦═╦══╦═╗
-║║║║╩╣╚╣═╣║║║║║╩╣
-╚══╩═╩═╩═╩═╩╩╩╩═╝ 
-
-‏نقدم لك دعوة لسموك الراقيَ .
-‏لنحظى بجمال حضورك وتواجدك
-•بتنـورونـا الجميع :wink:
-•اي مشكله توآجهك ولا يهمك. عندك الاداره تفضل ونحل مشكلتك مع آي شخص بالسيرفر.:telephone_receiver:
-•عندك فكره موضوع تفضل شآركنا فيه:jack_o_lantern::gift:
-•واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
-شرفنا يا عسل:wink: :kissing_heart:
 
 
-https://discord.gg/DK8DkXP
+
                            
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-client.login('NDk2NjU3MTkzMjYxODU4ODE3.Dp45WQ.f0zkDueXfI44NiseRXT8cyU-uNI');
+client.login('"NDk5MjM1NTkxMTg0MTg3Mzkz.Dp6DbA.8x8LiQsCAW-2OJIpoKKy9gChaTk"');
