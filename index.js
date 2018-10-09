@@ -7,11 +7,10 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
-
-
-                         
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+:kissing::heart::eyes:ممكن صدفة تخلق صحبة منور يالغالي
+السيرفر سيرفرك فحافظ عليه فضلا وليس امرا heart 
+https://discord.gg/veYGUT
+وشكرا. [ ${member}  ]
 **`)
 }).catch(console.error)
 
@@ -21,12 +20,13 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
+:kissing::heart::eyes: ممكن صدفة تخلق صحبة منور يالغالي
 
+السيرفر سيرفرك فحافظ عليه فضلا وليس امرا heart 
 
+https://discord.gg/veYGUT
 
-                           
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+وشكرا.. [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
