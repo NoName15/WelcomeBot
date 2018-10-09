@@ -30,4 +30,4 @@ client.on("guildMemberAdd", member => {
 **`) 
 }).catch(console.error)
 })
-client.login('"NDk5MjM1NTkxMTg0MTg3Mzkz.Dp6DbA.8x8LiQsCAW-2OJIpoKKy9gChaTk"');
+client.login('NDk5MjM1NTkxMTg0MTg3Mzkz.Dp6DbA.8x8LiQsCAW-2OJIpoKKy9gChaTk');
