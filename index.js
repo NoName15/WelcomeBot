@@ -7,10 +7,19 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes:ممكن صدفة تخلق صحبة منور يالغالي
-السيرفر سيرفرك فحافظ عليه فضلا وليس امرا heart 
-https://discord.gg/veYGUT
-وشكرا. [ ${member}  ]
+:kissing::heart::eyes: 
+Join this server to get some real next class fun!
+Also free moderator to the first 10 people :D
+
+https://discord.gg/cUgYbEr
+
+=============================================
+:kissing::heart::eyes: 
+ادخل السيرفر يقلبي تحصل كثير ناس حبوبين
+فضلا وليس امرا....
+الدعوة خاصة لك ياقلبي
+اكواد خاصة لبوتات ديسكورد - ادمن رئيسي لاول 10 اشخاص لحق يالحبيب
+https://discord.gg/cUgYbEr [ ${member}  ]
 **`)
 }).catch(console.error)
 
@@ -20,14 +29,21 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: ممكن صدفة تخلق صحبة منور يالغالي
+:kissing::heart::eyes: 
+Join this server to get some real next class fun!
+Also free moderator to the first 10 people :D
 
-السيرفر سيرفرك فحافظ عليه فضلا وليس امرا heart 
+https://discord.gg/cUgYbEr
 
-https://discord.gg/veYGUT
-
-وشكرا.. [ ${member}  ]
+=============================================
+:kissing::heart::eyes: 
+ادخل السيرفر يقلبي تحصل كثير ناس حبوبين
+فضلا وليس امرا....
+الدعوة خاصة لك ياقلبي
+اكواد خاصة لبوتات ديسكورد - ادمن رئيسي لاول 10 اشخاص لحق يالحبيب
+https://discord.gg/cUgYbEr
+[ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-client.login('NDk5MjM1NTkxMTg0MTg3Mzkz.Dp6DbA.8x8LiQsCAW-2OJIpoKKy9gChaTk');
+client.login('NDk5MzAwMDIxMDM2OTA4NTU0.DqEgvg.fCzyfRlGIjK2XnCLKUSa77-GIRk');
