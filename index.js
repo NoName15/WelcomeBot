@@ -49,4 +49,4 @@ https://discord.gg/Jh2Au5
 **`) 
 }).catch(console.error)
 })
-client.login('"NDk5MzAwMDIxMDM2OTA4NTU0.DqE7mA.MXMq3cUGgH09kYEWMweVwTuSuEc"');
+client.login('NDk5MzAwMDIxMDM2OTA4NTU0.DqE7mA.MXMq3cUGgH09kYEWMweVwTuSuEc');
