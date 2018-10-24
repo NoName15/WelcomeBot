@@ -2,46 +2,39 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 console.log("Welcome Again !");
+ client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Welcome -BY:RO7`,"http://twitch.tv/S-F")
+  console.log('')
+  console.log('')
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log(`[Start] ${new Date()}`);
+  console.log('╚[═════════════════════════════════════════════════════════════════]╝')
+  console.log('')
+  console.log('╔[════════════════════════════════════]╗');
+  console.log(`Logged in as * [ " ${client.user.username} " ]`);
+  console.log('')
+  console.log('Informations :')
+  console.log('')
+  console.log(`servers! [ " ${client.guilds.size} " ]`);
+  console.log(`Users! [ " ${client.users.size} " ]`);
+  console.log(`channels! [ " ${client.channels.size} " ]`);
+  console.log('╚[════════════════════════════════════]╝')
+  console.log('')
+  console.log('╔[════════════]╗')
+  console.log(' Bot Is Online')
+  console.log('╚[════════════]╝')
+  console.log('')
+  console.log('')
+});
  
- client.on("guildMemberRemove", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-:kissing::heart::eyes: 
-Join this server to get some real next class fun!
-Also free moderator to the first 10 people :D
-
-https://discord.gg/cUgYbEr
-=============================================
-:kissing::heart::eyes: 
-ادخل السيرفر يقلبي تحصل كثير ناس حبوبين
-فضلا وليس امرا....
-الدعوة خاصة لك ياقلبي
-اكواد خاصة لبوتات ديسكورد - ادمن رئيسي لاول 10 اشخاص لحق يالحبيب
-https://discord.gg/cUgYbEr
-[ ${member}  ]
-**`)
-}).catch(console.error)
-
-})
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-:kissing::heart::eyes: 
-Join this server to get some real next class fun!
-Also free moderator to the first 10 people :D
-https://discord.gg/cUgYbEr
-=============================================
-:kissing::heart::eyes: 
-ادخل السيرفر يقلبي تحصل كثير ناس حبوبين
-فضلا وليس امرا....
-الدعوة خاصة لك ياقلبي
-اكواد خاصة لبوتات ديسكورد - ادمن رئيسي لاول 10 اشخاص لحق يالحبيب
-https://discord.gg/cUgYbEr
-[ ${member}  ]
-**`) 
+  return channel.send(`:rose:  ولكم نورت السيرفر:rose: 
+:crown:اسم العضو  ${member}:crown:  
+انت العضو رقم ${member.guild.memberCount} `) 
 }).catch(console.error)
 })
-client.login('NTAxMTM4MzIwNzMxMTQ0MjUy.DqfUDQ.IbZsHHtxlIpgSp4W6MUZXfIho-c');
+
+client.login('NTAyOTIwMjIzMDU4NTU4OTc2.DrIj6Q.cASw4B2OmfUH5BWHwiMLvQfYpIE');
