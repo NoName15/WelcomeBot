@@ -37,4 +37,4 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
-client.login('NTAyOTIwMjIzMDU4NTU4OTc2.DrIj6Q.cASw4B2OmfUH5BWHwiMLvQfYpIE');
+client.login(process.env.BOT_TOKEN);
