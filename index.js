@@ -4,7 +4,7 @@ const client = new Discord.Client();
 console.log("Welcome Again !");
  client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`『Legend Raider』1K`,"http://twitch.tv/S-F")
+client.user.setGame(`! Legends | By: RO7`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
