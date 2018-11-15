@@ -30,11 +30,11 @@ client.user.setGame(`! Legends | By: RO7`,"http://twitch.tv/S-F")
  
  
 client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(`:rose:  ولكم نورت السيرفر:rose: 
-:crown:اسم العضو  ${member}:crown:  
-انت العضو رقم ${member.guild.memberCount} `) 
-}).catch(console.error)
+  var server = "509080649014181890"; // ايدي السررفر
+var channel = "509080649488007180";//ايدي الروم
+    
+    client.guilds.get(server).channels.get(channel).send('**Welcmome**')
+    );
 })
 
 client.login(process.env.BOT_TOKEN);
