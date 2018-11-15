@@ -34,7 +34,7 @@ client.on("guildMemberAdd", member => {
 var channel = "509080649488007180";//ايدي الروم
     
     client.guilds.get(server).channels.get(channel).send('**Welcmome**')
-    );
-})
+   
+});
 
 client.login(process.env.BOT_TOKEN);
