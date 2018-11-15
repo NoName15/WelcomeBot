@@ -4,7 +4,7 @@ const client = new Discord.Client();
 console.log("Welcome Again !");
  client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`! Legends | By: RO7`,"http://twitch.tv/S-F")
+client.user.setGame(`By: RO7`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -30,10 +30,10 @@ client.user.setGame(`! Legends | By: RO7`,"http://twitch.tv/S-F")
  
  
 client.on("guildMemberAdd", member => {
-  var server = "509080649014181890"; // ايدي السررفر
-var channel = "509080649488007180";//ايدي الروم
+  var server = "441998122827120640"; // ايدي السررفر
+var channel = "501827332592631814";//ايدي الروم
     
-    client.guilds.get(server).channels.get(channel).send('**Welcmome**')
+    client.guilds.get(server).channels.get(channel).send('** Welcome To 4FUN Server ** :rose:')
    
 });
 
